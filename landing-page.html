@@ -1,0 +1,149 @@
+<!--
+    This project is meant to be an interactive timeline portfolio project.
+    I will be treating this as an ongoing project, especially after it goes live.
+    I will include completed, current, and future projects to be displayed.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Sharef Beckum-Swearington Tech and Accomplishment Portfolio Website">
+        <title>Sharef Beckum-Swearington | Portfolio</title>
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+
+<!--
+    Work on Accessibility of webpage ASAP
+    Make it look SHINY!
+-->
+    <body>
+        <nav>
+            <div class="logo">
+                <img src="https://imgur.com/BEXImnK.png" alt="Sharef Beckum-Swearington logo icon" class="logo-img" id="logo-img">
+                <span class="brand-name">Sharef Beckum-Swearington</span>
+            </div>
+            <ul>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#projects">PROJECTS</a></li>
+                <li><a href="#about">ABOUT</a></li>
+            </ul>
+        </nav>
+        <header id="home">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Capricorn-fueled ambition. Grounded tech. Lasting impact.</p>
+        </header>
+        <main>
+            <!-- Future sections would go here -->
+            <section class="projects">
+                <div class="projects-head">
+                    <h2>Projects
+                        <span>Click On A Category</span>
+                    </h2>
+                </div>
+                <div class="project-categories">
+                    <ul class="project-list">
+                        <li class="listed"><a href=".projects-past">COMPLETED</a></li>
+                        <li class="listed"><a href=".projects-present">CURRENT</a></li>
+                        <li class="listed"><a href=".projects-future">FUTURE</a></li>
+                    </ul>
+                </div>
+
+                <!-- 
+                    INTERACTIVE PORTION OF WEBPAGE
+                    When user clicks on categories, categories reveal and hide 
+                    specific sets of project cards. Relies on JAVASCRIPT, not there yet.
+                -->
+                <!-- Past Projects Tab-->
+                <div class="projects-past">
+                    <div class="project-card past">
+                        <h3>Project Title</h3>
+                        <p>Brief description.</p>
+                        <a href="#">View Project</a>
+                    </div>
+                    <div class="project-card past">
+                        <h3>Project Title</h3>
+                        <p>Brief description.</p>
+                        <a href="#">View Project</a>
+                    </div>
+                    <div class="project-card past">
+                        <h3>Project Title</h3>
+                        <p>Brief description.</p>
+                        <a href="#">View Project</a>
+                    </div>
+                </div>
+
+                <!-- Present Projects Tab-->
+                <div class="projects-present">
+                    <!-- Drafting project cards for later-->
+                    <div class="project-card present">
+                        <h3>Project Title</h3>
+                        <p>Brief description.</p>
+                        <a href="#">View Project</a>
+                    </div>
+                    <div class="project-card present">
+                        <h3>Project Title</h3>
+                        <p>Brief description.</p>
+                        <a href="#">View Project</a>
+                    </div>
+                    <div class="project-card present">
+                        <h3>Project Title</h3>
+                        <p>Brief description.</p>
+                        <a href="#">View Project</a>
+                    </div>
+                </div>
+
+                <!-- Future Projects Tab-->
+                <div class="projects-future">
+                    <div class="project-card future">
+                        <h3>Project Title</h3>
+                        <p>Brief description.</p>
+                        <a href="#">View Project</a>
+                    </div>
+                    <div class="project-card future">
+                        <h3>Project Title</h3>
+                        <p>Brief description.</p>
+                        <a href="#">View Project</a>
+                    </div>
+                    <div class="project-card future">
+                        <h3>Project Title</h3>
+                        <p>Brief description.</p>
+                        <a href="#">View Project</a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="about">
+                <h2>About Me</h2>
+                <p class="about-head">I'm Sharef Beckum-Swearington, a tech enthusiast with a deep sense of purpose and a passion for practical, clean code.</p>
+                <div class="socials">
+                    <ul class="socials-list">
+                        <li>
+                            <a href="https://www.linkedin.com/in/sharef-mbs/">
+                                <img src="https://imgur.com/osjhB1j.png" alt="LinkedIn profile for Sharef Beckum-Swearington">
+                                <p>LinkedIn</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://x.com/Sharef_MBS">
+                                <img src="https://imgur.com/aqIWu5R.png" alt="X profile for Sharef Beckum-Swearington">
+                                <p>X<br>(formerly Twitter)</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/marqeeshrs">
+                                <img src="https://imgur.com/iVQlnIy.png" alt="GitHub profile for Sharef Beckum-Swearington">
+                                <p>GitHub</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p class="sign-off">Built by Sharef, guided by passion</p>
+            <p class="date-of-conception">EST. July 2025</p>
+        </footer>
+    </body>
+</html>
