@@ -46,8 +46,6 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 3.789rem;
-    margin-left: auto;
-    margin-right: auto;
     position: sticky;
     top: 0;
 }
@@ -56,6 +54,7 @@ nav .logo {
     font-weight: bold;
     font-size: 1.5rem;
     color: var(--accent-button-links);
+    margin-left: 0;
 }
 
 nav ul {
