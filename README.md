@@ -36,8 +36,9 @@ No build steps or dependencies are required.
 
 ## Contact
 
-For inquiries, feel free to reach out via [your preferred contact method, e.g., email or LinkedIn].
+For inquiries, feel free to reach out via marqeeshrs@gmail.com with subject line "github website".
 
 ---
 
 © marqeeshrs
+**NOTE** SITE STILL IN PROGRESS
